@@ -345,7 +345,7 @@ function timeAgo(dateStr) {
 async function fetchNews() {
   const list = document.getElementById('newsList');
   try {
-    const key = 'TA_CLE_NEWSDATA_ICI';
+    const key = 'pub_7d7e51b4f3774706ad1a39390ff2bc6b';
     const url = 'https://newsdata.io/api/1/news?apikey=' + key + '&q=tech gaming&language=fr&size=8';
     const res = await fetch(url);
     const data = await res.json();
